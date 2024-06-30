@@ -1,0 +1,33 @@
+.ingredient-list {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.ingredient-list h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff;
+}
+
+.ingredient-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredient-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f1f3f5;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ingredient-list li:hover {
+    background-color: #e9ecef;
+}

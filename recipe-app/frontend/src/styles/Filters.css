@@ -1,0 +1,28 @@
+.filters {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.filters h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #17a2b8;
+}
+
+.filters form {
+    display: flex;
+    flex-direction: column;
+}
+
+.filters form .form-row {
+    margin-bottom: 10px;
+}
+
+.filters button {
+    align-self: flex-end;
+}
